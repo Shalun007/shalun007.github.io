@@ -8,15 +8,15 @@ body {
 
 .container {
 	max-width: 390px;
-	margin: 0 auto; /* Центрирование контейнера по горизонтали */
+	margin: 0 auto;
 }
 
 .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 230px 230px 230px;
-	justify-content: center; /* Центрирование по горизонтали */
-	align-items: center; /* Центрирование по вертикали */  
+	justify-content: center;
+	align-items: center; 
 }
 
 .img {
