@@ -19,7 +19,7 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали спортивный костюм!");
+		tg.MainButton.setText("Вы выбрали расклад на самореализацию!");
 		item = "1";
 		tg.MainButton.show();
 	}
@@ -30,7 +30,7 @@ btn2.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали вязанный костюм!");
+		tg.MainButton.setText("Вы выбрали расклад на любовь!");
 		item = "2";
 		tg.MainButton.show();
 	}
@@ -41,7 +41,7 @@ btn3.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали комбинезон!");
+		tg.MainButton.setText("Вы выбрали расклад на финансы!");
 		item = "3";
 		tg.MainButton.show();
 	}
@@ -52,7 +52,7 @@ btn4.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали пижаму!");
+		tg.MainButton.setText("Вы выбрали навести на кого то порчу!");
 		item = "4";
 		tg.MainButton.show();
 	}
@@ -63,7 +63,7 @@ btn5.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали ветровку!");
+		tg.MainButton.setText("Вы выбрали расклад на счастье!");
 		item = "5";
 		tg.MainButton.show();
 	}
@@ -74,7 +74,7 @@ btn6.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали утепленный костюм!");
+		tg.MainButton.setText("Вы выбрали расклад на общие позиции!");
 		item = "6";
 		tg.MainButton.show();
 	}
