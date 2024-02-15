@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+}
+
+.container {
+	max-width: 390px;
+}
+
+.inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 250px 250px 250px;
+}
+
+.img {
+	width: 100px;
+}
+
+.item {
+	text-align: center;
+}
+
+.item h4{
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.btn{
+	display: inline-block;
+	padding: 5px 30px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 100;
+	transition: background .2s linear;
+	background: rgb(184, 56, 56); /* Цвет фона для кнопки + */
+	font-size: 2vh;
+	font-weight: bold;
+}
+
+.btn:hover {
+	background: rgb(255, 187, 0);
+}
+
+.usercard {
+	text-align: center;
+}
