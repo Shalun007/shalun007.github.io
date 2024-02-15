@@ -8,19 +8,16 @@ body {
 
 .container {
 	max-width: 390px;
-	margin: 0 auto; /* Центрирование контейнера по горизонтали */
 }
 
 .inner {
 	display: grid;
-	grid-template-columns: 2fr 2fr;
-	grid-template-rows: 250px 250px 250px;
-	justify-content: center; /* Центрирование по горизонтали */
-	align-items: center; /* Центрирование по вертикали */  
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 230px 230px 230px;
 }
 
 .img {
-	width: 100px;
+	width: 140px;
 }
 
 .item {
@@ -28,8 +25,8 @@ body {
 }
 
 .item h4{
-	margin-top: -5px;
-	margin-bottom: 5px;
+	margin-top: 1px;
+	margin-bottom: 9px;
 }
 
 .btn{
@@ -41,13 +38,13 @@ body {
 	text-transform: uppercase;
 	font-weight: 100;
 	transition: background .2s linear;
-	background: rgb(184, 56, 56); /* Цвет фона для кнопки + */
+	background: rgb(177, 26, 26); /* Цвет фона для кнопки + */
 	font-size: 2vh;
 	font-weight: bold;
 }
 
 .btn:hover {
-	background: rgb(255, 187, 0);
+	background: rgb(196, 86, 86);
 }
 
 .usercard {
